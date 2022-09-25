@@ -1,0 +1,12 @@
+#! /bin/sh
+# Wait-Notify utility script
+# This waits for a set of hosts to accept TCP connections and then notifies a set of hosts by opening TCP sockets.
+# The wait and notify operations occur sequentially.
+
+# Notifies the provided hosts by opening a TCP socket, one after the other.
+notifyHosts() {
+}
+
+# Waits for the hosts to accept TCP communication, one after the other.
+waitForHosts() {
+}
